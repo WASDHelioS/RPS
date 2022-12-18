@@ -1,6 +1,6 @@
 Definitions:
 
-Round : A single round of thrown choices
+Game: A single game, serves as a container around Match.
 
 Match : A single match, may or may not consist of multiple rounds. this is set by user input.
 
@@ -14,6 +14,3 @@ Round : A single round, may or may not consist of multiple turns. this depends o
             round, and a new round starts with the winning players.
 
         
-
-Game: A single game, may or may not consist of multiple matches. This depends on the
-        amount of matches the player(s) want to play for this game.
