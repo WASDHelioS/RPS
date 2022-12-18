@@ -2,8 +2,10 @@ Definitions:
 
 Round : A single round of thrown choices
 
-Match : A single match, may or may not consist of multiple rounds. this depends on 
-        if the last round results in a draw, a stalemate, or there are multiple winners.
+Match : A single match, may or may not consist of multiple rounds. this is set by user input.
+
+Round : A single round, may or may not consist of multiple turns. this depends on
+        if the last turn results in a draw, a stalemate, or there are multiple winners.
         
         If there is a single winner, the round is over.
         If all thrown choices are the same, it is considered a draw, and the round is restarted
